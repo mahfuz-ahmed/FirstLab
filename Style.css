@@ -1,0 +1,143 @@
+*{margin:0;padding:0}
+
+body{
+	
+	background-color:#554f69;
+}
+
+#wrapper{
+	
+	margin:20px auto;
+}
+
+#header{
+	
+	background-color:#0a0a09;
+	padding:15px;	
+	border-bottom:5px solid #6d736f;
+	
+}
+
+#header h1{
+	color:#FFFFF1;
+	list-style-type:none;
+	
+}
+#nav{
+	
+	background-color:#cfcfc6;
+	border-bottom:5px solid #6d736f;
+	height:38px;
+	
+}
+#nav ul{
+	background-color:#b3b3aa;
+	list-style-type:none;
+}
+#nav ul li{
+	
+	float:left;
+	border-right:1px solid #6B710E;
+}
+
+#nav ul li:last-child{
+	border:none;
+	
+}
+#nav ul li a{
+	text-decoration:none;
+	color:#7A7F25;
+	display:block;
+	padding:10px 20px;
+	font-family:arial;
+	
+}
+#nav ul li a:hover{
+	
+	color:#827159;
+}
+
+#image img{
+
+	margin-left:250px;
+	
+	
+}
+
+#content_wrapper{
+	
+	color:#FFFFF1;
+	margin-top:50px;
+	font-size:20px;
+	margin-left:50px;
+}
+
+
+.about,.works{
+    display: flex;
+    justify-content: center;
+}
+.personalInfo, .personalWorks{
+    width: 100%;
+    background-color: #6d736f;
+    margin: 40px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.personalInfo .image{
+    width: 70px;
+    margin: 20px auto;
+    height: 70px;
+    background-image: url(image/mahfuz_ahmed.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: -20px -5px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px 1px;
+}
+
+@media only screen and (min-width:700px){
+    .personal{
+        display: flex;    
+    }
+    .personalInfo .image{
+        margin: 0;
+        margin-right: 30px;
+        border-radius: 0;
+        width: 170px;
+        height: 200px;
+    }
+    .personalInfo .data{
+        margin-left: 30px;
+		font-size:20px;
+    }
+    .personalInfo{
+        align-items: center;
+    }
+    .about, .works{
+        height: 100vh;
+    }
+}
+
+footer{
+    height: 200px;
+    background-color: rgb(8, 29, 41);
+    border-top: 5px solid #6d736f;
+    color: #FFFFF1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
